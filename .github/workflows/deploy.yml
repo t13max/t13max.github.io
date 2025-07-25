@@ -3,7 +3,10 @@ name: Deploy Hexo
 on:
   push:
     branches:
-      - master  # 触发分支
+      - master
+
+permissions:
+  contents: write  # 必须加 否则 github_token 没权限 push
 
 jobs:
   build-and-deploy:
@@ -32,4 +35,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages  # 部署到的分支
+          publish_branch: gh-pages
