@@ -4,7 +4,6 @@ date: 2025-07-25 21:06:43
 tags: [ Java,卡牌对战 ]
 category: 测试
 keywords: 测试
-permalink: :year/:month/:day/:title/
 description: 一个测试页面
 top_image:
 cover: https://jsd.012700.xyz/gh/jerryc127/CDN@latest/cover/default_bg.png
