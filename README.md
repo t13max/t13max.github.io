@@ -8,6 +8,22 @@ https://butterfly.js.org/posts/21cfbf15/
 
 ## TODO
 
+1. 卡牌对战的战斗模块
+2. MMO的场景
+3. AFK战斗
+4. SLG大地图
+5. effective Java
+6. Java游戏服务器架构
+7. XDB -> KDB
+8. Netty源码
+9. HikariCP源码
+10. Quartz源码
+11. 压测
+12. 合服
+13. 热更
+14. 面经
+15. 蜜月?
+
 ## 命令
 
 ```shell
