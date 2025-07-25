@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: t13max
+title: t13max的宝库
 subtitle: ''
-description: '喵喵喵'
+description: '喵喵喵喵喵?'
 keywords:
-author: t13max Doe
+author: t13max
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'

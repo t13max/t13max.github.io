@@ -472,8 +472,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 请输入关键词
 
   # Algolia Search
   algolia_search:
@@ -485,9 +485,9 @@ search:
     # Preload the search data when the page loads.
     preload: false
     # Show top n results per article, show all results by setting to -1
-    top_n_per_article: 1
+    top_n_per_article: 2
     # Unescape html strings to the readable one.
-    unescape: false
+    unescape: true
     CDN:
 
   # Docsearch
