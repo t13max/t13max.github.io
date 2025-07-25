@@ -103,4 +103,4 @@ theme: hexo-theme-butterfly-dev
 deploy:
   type: 'git'
   repo: https://github.com/t13max/t13max.github.io.git
-  branch: main
+  branch: master
