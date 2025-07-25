@@ -18,10 +18,15 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  #  清单||fas fa-list||hide: # ||hide
+  #    音乐: /music/ || fas fa-music
+  #    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -29,7 +34,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: light
+  theme: darker
   macStyle: false
   # Code block height limit (unit: px)
   height_limit: false
@@ -46,17 +51,20 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-
+  fab fa-github: https://github.com/t13max || Github || '#24292e'
+  fas fa-envelope: mailto:t13max@gmail.com || Email || '#4a7dbe'
+  fab fa-bilibili: https://space.bilibili.com/29587319 || Bilibili || '#FB7299'  # B站粉红色
+  fas fa-diamond: https://juejin.cn/user/2247814554597528 || 掘金 || '#1E80FF'  # 掘金蓝
+  fab fa-zhihu: https://www.zhihu.com/people/81-75-41-49-98 || 知乎 || '#0084FF'  # 知乎蓝
+#  fas fa-blog: https://blog.csdn.net/m0_57906027?spm=1001.2014.3001.10640 || CSDN || '#FF0000'  # CSDN红色
 # --------------------------------------
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /image/cool_cat.jpg
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /image/cool_cat.jpg
   effect: false
 
 # Disable all banner images
@@ -101,7 +109,7 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    # - xxx.jpg
+    - /img/cool_cat.jpg
 
 # Replace Broken Images
 error_img:
@@ -110,8 +118,8 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
-  subtitle: 'Page Not Found'
+  enable: true
+  subtitle: '页面被吃了'
   background: /img/error-page.png
 
 post_meta:
@@ -122,7 +130,7 @@ post_meta:
     # Choose: date / relative
     date_format: date
     categories: true
-    tags: false
+    tags: true
     label: true
   post:
     # Choose: left / center
@@ -148,7 +156,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -164,6 +172,13 @@ subtitle:
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
   sub:
+    - 越努力 越幸运
+    - 机会是留给有准备的人的
+    - 居安思危
+    - 事出反常必有妖
+    - 努力不一定成功 但是不努力的话....就会很轻松
+    - 间歇性的雄心壮志，持续性的混吃等死。痛苦不是源于无所事事，而是心不止此
+    - 财富是对认知的补偿 而不是对勤奋的奖赏
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -207,15 +222,15 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
-  text:
+  enable: true
+  text: 喵啊~
   QR_code:
-    # - img: /img/wechat.jpg
-    #   link:
-    #   text: wechat
-    # - img: /img/alipay.jpg
-    #   link:
-    #   text: alipay
+    - img: /image/reward/wechat.jpg
+      link:
+      text: 微信
+    - img: /image/reward/alipay.jpg
+      link:
+      text: 支付宝
 
 # Post edit
 # Easily browse and edit blog source code online.
@@ -263,7 +278,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text:
+  custom_text: 菜猫一只 没钱吃饭
 
 # --------------------------------------
 # Aside Settings
@@ -288,10 +303,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/t13max
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: t13max的博客开通成功啦
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -526,7 +541,7 @@ comments:
   # Leave it empty if you don't need comments
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   # Format of two comments system : Disqus,Waline
-  use:
+  use: utterances
   # Display the comment name next to the button
   text: true
   # Lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -536,6 +551,7 @@ comments:
   count: false
   # Display comment count in Home Page
   card_post_count: false
+
 
 # Disqus
 # https://disqus.com/
@@ -591,12 +607,13 @@ waline:
 # Utterances
 # https://utteranc.es/
 utterances:
-  repo:
+  repo: t13max/t13max.github.io  # 格式：用户名/仓库名
   # Issue Mapping: pathname/url/title/og:title
-  issue_term: pathname
+  issue_term: pathname # 用文章路径作为issue标识
   # Theme: github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
   light_theme: github-light
   dark_theme: photon-dark
+  label: "comment"     # 评论issue的标签（可选）
   js:
   option:
 
@@ -736,10 +753,10 @@ ad:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
-  # - name: baidu-site-verification
-  #   content: xxxxxxx
+# - name: google-site-verification
+#   content: xxxxxx
+# - name: baidu-site-verification
+#   content: xxxxxxx
 
 # --------------------------------------
 # Beautify / Effect
@@ -886,9 +903,9 @@ click_heart:
 clickShowText:
   enable: false
   text:
-    # - I
-    # - LOVE
-    # - YOU
+  # - I
+  # - LOVE
+  # - YOU
   fontSize: 15px
   random: false
   mobile: false
@@ -975,7 +992,7 @@ pjax:
   enable: false
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
-    # - /xxxxxx/
+  # - /xxxxxx/
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
@@ -1023,13 +1040,13 @@ pwa:
 Open_Graph_meta:
   enable: true
   option:
-    # twitter_card:
-    # twitter_image:
-    # twitter_id:
-    # twitter_site:
-    # google_plus:
-    # fb_admins:
-    # fb_app_id:
+  # twitter_card:
+  # twitter_image:
+  # twitter_id:
+  # twitter_site:
+  # google_plus:
+  # fb_admins:
+  # fb_app_id:
 
 # Structured Data
 # https://developers.google.com/search/docs/guides/intro-structured-data
@@ -1042,9 +1059,9 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+  # - <link rel="stylesheet" href="/xxx.css">
   bottom:
-    # - <script src="xxxx"></script>
+  # - <script src="xxxx"></script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
@@ -1064,58 +1081,58 @@ CDN:
   custom_format:
 
   option:
-    # abcjs_basic_js:
-    # activate_power_mode:
-    # algolia_js:
-    # algolia_search:
-    # aplayer_css:
-    # aplayer_js:
-    # artalk_css:
-    # artalk_js:
-    # blueimp_md5:
-    # busuanzi:
-    # canvas_fluttering_ribbon:
-    # canvas_nest:
-    # canvas_ribbon:
-    # chartjs:
-    # click_heart:
-    # clickShowText:
-    # disqusjs:
-    # disqusjs_css:
-    # docsearch_css:
-    # docsearch_js:
-    # egjs_infinitegrid:
-    # fancybox:
-    # fancybox_css:
-    # fireworks:
-    # fontawesome:
-    # gitalk:
-    # gitalk_css:
-    # giscus:
-    # instantpage:
-    # instantsearch:
-    # katex:
-    # katex_copytex:
-    # lazyload:
-    # local_search:
-    # main:
-    # main_css:
-    # mathjax:
-    # medium_zoom:
-    # mermaid:
-    # meting_js:
-    # prismjs_autoloader:
-    # prismjs_js:
-    # prismjs_lineNumber_js:
-    # pjax:
-    # sharejs:
-    # sharejs_css:
-    # snackbar:
-    # snackbar_css:
-    # translate:
-    # twikoo:
-    # typed:
-    # utils:
-    # valine:
-    # waline_css:
-    # waline_js:
+  # abcjs_basic_js:
+  # activate_power_mode:
+  # algolia_js:
+  # algolia_search:
+  # aplayer_css:
+  # aplayer_js:
+  # artalk_css:
+  # artalk_js:
+  # blueimp_md5:
+  # busuanzi:
+  # canvas_fluttering_ribbon:
+  # canvas_nest:
+  # canvas_ribbon:
+  # chartjs:
+  # click_heart:
+  # clickShowText:
+  # disqusjs:
+  # disqusjs_css:
+  # docsearch_css:
+  # docsearch_js:
+  # egjs_infinitegrid:
+  # fancybox:
+  # fancybox_css:
+  # fireworks:
+  # fontawesome:
+  # gitalk:
+  # gitalk_css:
+  # giscus:
+  # instantpage:
+  # instantsearch:
+  # katex:
+  # katex_copytex:
+  # lazyload:
+  # local_search:
+  # main:
+  # main_css:
+  # mathjax:
+  # medium_zoom:
+  # mermaid:
+  # meting_js:
+  # prismjs_autoloader:
+  # prismjs_js:
+  # prismjs_lineNumber_js:
+  # pjax:
+  # sharejs:
+  # sharejs_css:
+  # snackbar:
+  # snackbar_css:
+  # translate:
+  # twikoo:
+  # typed:
+  # utils:
+  # valine:
+  # waline_css:
+  # waline_js:

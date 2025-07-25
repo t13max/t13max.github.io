@@ -8,10 +8,6 @@ https://butterfly.js.org/posts/21cfbf15/
 
 ## TODO
 
-1. 登录/评论
-2. 搜索
-3. 主页
-
 ## 命令
 
 ```shell
