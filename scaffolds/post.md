@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags: [ title ]
+tags: [  ]
 category: "其他"
 keywords: {{ title }}
 description: {{ title }}

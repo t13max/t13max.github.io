@@ -1,11 +1,9 @@
 - author: t13max
-  avatar: https://butterfly.js.org/img/avatar.png
-  date: 2025-07-25 00:00:00
-  key: key-1
+  avatar: https://t13max.github.io/image/cool_cat.jpg
+  date: 2025-07-26 00:00:00
+  key: shuoshuo-2025-07-26-1
   content: |
-    This is a sample content for **Author 1**.
-    ![Sample Image](https://via.placeholder.com/150)
+    说说测试 **t13max**
   tags:
-    - tags1
-    - tags2
+    - 测试
 

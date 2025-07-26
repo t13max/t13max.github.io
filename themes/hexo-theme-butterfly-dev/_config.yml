@@ -25,6 +25,7 @@ menu:
   #  清单||fas fa-list||hide: # ||hide
   #    音乐: /music/ || fas fa-music
   #    电影: /movies/ || fas fa-video
+  说说: /shuoshuo/ || fas fa-comment-dots
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
