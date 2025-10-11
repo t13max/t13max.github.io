@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>UsefulTools</title>
+      <link href="/2025/10/11/UsefulTools/"/>
+      <url>/2025/10/11/UsefulTools/</url>
+      
+        <content type="html"><![CDATA[<h1 id="好用的工具"><a href="#好用的工具" class="headerlink" title="好用的工具"></a>好用的工具</h1><table><thead><tr><th>序号</th><th>仓库名称</th><th>简介</th><th>主要语言</th><th>功能特点</th><th>平台</th></tr></thead><tbody><tr><td>1</td><td><a href="https://github.com/OpenCut-app/OpenCut">OpenCut</a></td><td>开源 CapCut 替代品，注重隐私、免费功能和简单易用</td><td>TypeScript</td><td>时间线编辑、多轨道、实时预览、无水印</td><td>Web &#x2F; Windows &#x2F; macOS &#x2F; 移动端</td></tr><tr><td>2</td><td><a href="https://github.com/LmeSzinc/AzurLaneAutoScript">AzurLaneAutoScript</a></td><td>碧蓝航线自动化脚本，支持多语言服务器</td><td>Python</td><td>自动完成游戏任务、科研，全自动操作</td><td>Android</td></tr><tr><td>3</td><td><a href="https://github.com/lwouis/alt-tab-macos">alt-tab-macos</a></td><td>在 macOS 上实现 Windows 风格的 Alt+Tab 切换</td><td>Swift</td><td>键盘快捷切换、多显示器支持、自定义窗口预览</td><td>macOS</td></tr><tr><td>4</td><td><a href="https://github.com/JetBrains/intellij-community">intellij-community</a></td><td>IntelliJ IDEA &amp; 平台开源代码库</td><td>Java</td><td>IDE 功能全面、插件扩展</td><td>Windows &#x2F; macOS &#x2F; Linux</td></tr><tr><td>5</td><td><a href="https://github.com/ayangweb/BongoCat">BongoCat</a></td><td>跨平台桌宠 BongoCat，为桌面增添趣味</td><td>TypeScript</td><td>键盘&#x2F;鼠标动作同步、自定义模型、离线运行</td><td>Windows &#x2F; macOS &#x2F; Linux</td></tr><tr><td>6</td><td><a href="https://github.com/MaaXYZ/MaaFramework">MaaFramework</a></td><td>基于图像识别的自动化黑盒测试框架</td><td>C++</td><td>图像识别测试、低代码接口、丰富控件支持</td><td>Windows &#x2F; 其他支持 C++ 的平台</td></tr><tr><td>7</td><td><a href="https://github.com/ww-rm/SpineViewer">SpineViewer</a></td><td>Spine 文件查看、导出及动态壁纸工具</td><td>C#</td><td>多版本 Spine 文件支持、批量预览、导出视频&#x2F;图片、动态壁纸</td><td>Windows</td></tr><tr><td>8</td><td><a href="https://github.com/T8RIN/ImageToolbox">ImageToolbox</a></td><td>多功能图像编辑工具</td><td>Kotlin</td><td>裁剪、滤镜、OCR、批量处理</td><td>Android</td></tr><tr><td>9</td><td><a href="https://github.com/pass-with-high-score/Aneko-skin">Aneko-skin</a></td><td>ANeko Android 应用皮肤集合</td><td>-</td><td>社区&#x2F;历史皮肤管理、导入导出</td><td>Android</td></tr><tr><td>10</td><td><a href="https://github.com/Steve-Mr/EmojiFace">EmojiFace</a></td><td>在图片中识别人脸并用 Emoji 覆盖</td><td>Kotlin</td><td>人脸识别、Emoji 替换、离线处理</td><td>Android</td></tr><tr><td>11</td><td><a href="https://github.com/JunkFood02/Seal">Seal</a></td><td>视频&#x2F;音频下载器（基于 yt-dlp）</td><td>Kotlin</td><td>多平台下载、支持批量</td><td>Android</td></tr><tr><td>12</td><td><a href="https://github.com/maotoumao/MusicFree">MusicFree</a></td><td>插件化、定制化、无广告的音乐播放器</td><td>TypeScript</td><td>支持多源播放、插件扩展、无广告</td><td>Android</td></tr><tr><td>13</td><td><a href="https://github.com/xiaoyaocz/dart_simple_live">dart_simple_live</a></td><td>简单的直播观看工具</td><td>Dart</td><td>支持主流直播平台、简单界面</td><td>Android</td></tr><tr><td>14</td><td><a href="https://github.com/d4rken-org/sdmaid-se">sdmaid-se</a></td><td>Android 系统清理工具</td><td>Kotlin</td><td>文件清理、缓存管理、数据库优化</td><td>Android</td></tr><tr><td>15</td><td><a href="https://github.com/Acode-Foundation/Acode">Acode</a></td><td>Android 上强大的文本&#x2F;代码编辑器</td><td>JavaScript</td><td>代码高亮、Git 集成、文件管理</td><td>Android</td></tr><tr><td>16</td><td><a href="https://github.com/laqoome/LaQoo">LaQoo</a></td><td>简洁动漫播放 App，支持下载和弹幕</td><td>Kotlin</td><td>视频播放、下载、弹幕显示</td><td>Android</td></tr><tr><td>17</td><td><a href="https://github.com/VonChange/utao">utao</a></td><td>油桃TV 电视浏览器</td><td>Java</td><td>各大卫视直播、支持爱奇艺、无需 VIP</td><td>Android TV</td></tr><tr><td>18</td><td><a href="https://github.com/btjawa/BiliTools">BiliTools</a></td><td>跨平台哔哩哔哩工具箱</td><td>Rust</td><td>下载视频、番剧、管理资源</td><td>Windows &#x2F; macOS &#x2F; Linux</td></tr><tr><td>19</td><td><a href="https://github.com/opendatalab/MinerU">MinerU</a></td><td>PDF 等复杂文档转换为 LLM 可用的 Markdown&#x2F;JSON</td><td>Python</td><td>文档解析、数据格式转换</td><td>Windows &#x2F; Linux &#x2F; macOS</td></tr><tr><td>20</td><td><a href="https://github.com/SheepChef/Abracadabra">Abracadabra</a></td><td>古文风文本加密工具</td><td>JavaScript</td><td>文本加密、古文风样式</td><td>Web</td></tr><tr><td>21</td><td><a href="https://github.com/Sjj1024/PakePlus">PakePlus</a></td><td>将网页&#x2F;Vue&#x2F;React 项目打包成多端应用</td><td>HTML</td><td>快速打包、轻量小于5M</td><td>Windows &#x2F; Android &#x2F; iOS</td></tr><tr><td>22</td><td><a href="https://github.com/1Panel-dev/1Panel">1Panel</a></td><td>Web 界面和 MCP Server 管理工具</td><td>Go</td><td>网站、文件、容器、数据库管理、LLM 管理</td><td>Linux</td></tr><tr><td>23</td><td><a href="https://github.com/dataease/dataease">dataease</a></td><td>开源 BI 数据可视化工具</td><td>Java</td><td>数据分析、报表可视化</td><td>Windows &#x2F; Linux &#x2F; macOS</td></tr><tr><td>24</td><td><a href="https://github.com/1Panel-dev/MaxKB">MaxKB</a></td><td>企业级智能体构建平台</td><td>Python</td><td>知识库管理、Agent 管理</td><td>Windows &#x2F; Linux &#x2F; macOS</td></tr><tr><td>25</td><td><a href="https://github.com/halo-dev/halo">halo</a></td><td>开源建站工具</td><td>Java</td><td>博客&#x2F;网站管理、插件扩展</td><td>Windows &#x2F; Linux &#x2F; macOS</td></tr><tr><td>26</td><td><a href="https://github.com/metersphere/metersphere">metersphere</a></td><td>开源持续测试工具</td><td>Java</td><td>自动化测试、持续集成支持</td><td>Windows &#x2F; Linux &#x2F; macOS</td></tr><tr><td>27</td><td><a href="https://github.com/learn-anything/learn-anything">learn-anything</a></td><td>私密笔记，AI 深度集成</td><td>TypeScript</td><td>笔记管理、分享、E2E 加密</td><td>Web &#x2F; Windows &#x2F; macOS &#x2F; Linux</td></tr><tr><td>28</td><td><a href="https://github.com/mayswind/ezbookkeeping">ezbookkeeping</a></td><td>轻量自托管个人理财应用</td><td>Go</td><td>记账、财务分析、报表</td><td>Windows &#x2F; Linux &#x2F; macOS</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 其他 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 其他 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HikariCP源码研读</title>
       <link href="/2025/07/26/HikariCP-source-study/"/>
       <url>/2025/07/26/HikariCP-source-study/</url>
