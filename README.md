@@ -26,6 +26,8 @@ https://butterfly.js.org/posts/21cfbf15/
 
 ## 命令
 
+### Hexo 常用命令
+
 ```shell
 hexo new "postName" 新建文章
 hexo new page "pageName" 新建页面
@@ -34,4 +36,20 @@ hexo server 开启预览访问端口（默认端口4000，'ctrl + c'关闭server
 hexo deploy 将.deploy目录部署到GitHub
 hexo help 查看帮助
 hexo version 查看Hexo的版本
+```
+
+### Hexo 8 及 strip-ansi 7 修复方法
+
+```shell
+# 安装最新 Node 20 LTS
+nvm install 20.19.1
+nvm use 20.19.1
+# 删除依赖和锁文件
+rm -rf node_modules package-lock.json
+
+# 安装 Hexo 8 和固定 strip-ansi 7
+npm install hexo@8 strip-ansi@7 --save-exact
+
+# 重新安装其它依赖
+npm install
 ```
