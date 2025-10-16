@@ -19,7 +19,6 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  游戏: /game/ || fas fa-video
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
