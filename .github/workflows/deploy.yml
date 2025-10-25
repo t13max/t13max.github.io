@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - games
 
 permissions:
   contents: write  # 必须加 否则 github_token 没权限 push
@@ -30,9 +31,17 @@ jobs:
           hexo clean
           hexo generate
 
+      - name: Fetch games branch
+        run: |
+          mkdir -p ./public/games
+          git fetch origin games
+          git checkout origin/games -- .  
+          cp -r ./* ./public/games/       
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
+
