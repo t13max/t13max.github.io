@@ -36,7 +36,8 @@ jobs:
           mkdir -p ./public/games
           git fetch origin games
           git checkout origin/games -- .  
-          cp -r $(ls | grep -v '^public$') ./public/games/
+          cp -r fiction-editor/ ./public/games/
+          cp -r fish/ ./public/games/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
