@@ -34,11 +34,9 @@ jobs:
       - name: Fetch games branch
         run: |
           mkdir -p ./public/games
-          cd ./public/games
-          git init
-          git remote add origin https://github.com/${{ github.repository }}.git
           git fetch origin games
-          git checkout origin/games -- .   
+          git checkout origin/games -- .  
+          cp -r $(ls | grep -v '^public$') ./public/games/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
