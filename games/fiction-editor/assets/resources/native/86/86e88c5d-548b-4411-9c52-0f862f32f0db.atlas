@@ -1,0 +1,615 @@
+
+char_311_mudrok.png
+size: 1969,110
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Armor_Chest
+  rotate: true
+  xy: 75, 10
+  size: 98, 54
+  orig: 98, 54
+  offset: 0, 0
+  index: -1
+Armor_Down
+  rotate: false
+  xy: 1110, 43
+  size: 60, 65
+  orig: 60, 65
+  offset: 0, 0
+  index: -1
+Armor_Down_a
+  rotate: true
+  xy: 1784, 64
+  size: 44, 23
+  orig: 44, 23
+  offset: 0, 0
+  index: -1
+B_Armor_Chest
+  rotate: true
+  xy: 778, 34
+  size: 74, 73
+  orig: 74, 73
+  offset: 0, 0
+  index: -1
+B_Armor_Down
+  rotate: true
+  xy: 1473, 48
+  size: 60, 57
+  orig: 60, 57
+  offset: 0, 0
+  index: -1
+B_Armor_Down_a
+  rotate: true
+  xy: 1809, 65
+  size: 43, 22
+  orig: 43, 22
+  offset: 0, 0
+  index: -1
+B_Bag
+  rotate: true
+  xy: 282, 23
+  size: 85, 50
+  orig: 85, 50
+  offset: 0, 0
+  index: -1
+B_Bag_B
+  rotate: true
+  xy: 219, 22
+  size: 86, 61
+  orig: 86, 61
+  offset: 0, 0
+  index: -1
+B_Bag_a
+  rotate: true
+  xy: 1640, 52
+  size: 56, 15
+  orig: 56, 15
+  offset: 0, 0
+  index: -1
+B_Body
+  rotate: true
+  xy: 508, 31
+  size: 77, 113
+  orig: 77, 113
+  offset: 0, 0
+  index: -1
+B_Head
+  rotate: true
+  xy: 404, 28
+  size: 80, 59
+  orig: 80, 59
+  offset: 0, 0
+  index: -1
+B_Head_Helmet
+  rotate: false
+  xy: 334, 25
+  size: 42, 83
+  orig: 42, 83
+  offset: 0, 0
+  index: -1
+B_L_Calf
+  rotate: false
+  xy: 1639, 4
+  size: 50, 45
+  orig: 50, 45
+  offset: 0, 0
+  index: -1
+B_L_Calf_Jar
+  rotate: true
+  xy: 592, 2
+  size: 27, 39
+  orig: 27, 39
+  offset: 0, 0
+  index: -1
+B_L_Calf_Jar_a
+  rotate: false
+  xy: 1306, 2
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+B_L_Foot
+  rotate: false
+  xy: 780, 2
+  size: 47, 30
+  orig: 47, 30
+  offset: 0, 0
+  index: -1
+B_L_Helmet
+  rotate: true
+  xy: 1834, 2
+  size: 24, 37
+  orig: 24, 37
+  offset: 0, 0
+  index: -1
+B_L_Leg
+  rotate: false
+  xy: 853, 35
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+B_L_Shoudler
+  rotate: false
+  xy: 1873, 2
+  size: 24, 30
+  orig: 24, 30
+  offset: 0, 0
+  index: -1
+B_Neck
+  rotate: false
+  xy: 348, 2
+  size: 78, 21
+  orig: 78, 21
+  offset: 0, 0
+  index: -1
+B_Pelvis
+  rotate: true
+  xy: 131, 17
+  size: 91, 42
+  orig: 91, 42
+  offset: 0, 0
+  index: -1
+B_R_Arm
+  rotate: false
+  xy: 1688, 56
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+B_R_Calf
+  rotate: false
+  xy: 1105, 2
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+B_R_Calf_Jar
+  rotate: true
+  xy: 703, 3
+  size: 27, 39
+  orig: 27, 39
+  offset: 0, 0
+  index: -1
+B_R_Calf_Jar_a
+  rotate: false
+  xy: 1345, 2
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1
+B_R_Foot
+  rotate: true
+  xy: 1584, 2
+  size: 47, 25
+  orig: 50, 27
+  offset: 3, 2
+  index: -1
+B_R_Foot_Jar
+  rotate: false
+  xy: 1928, 59
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+B_R_Forearm
+  rotate: true
+  xy: 1589, 51
+  size: 57, 49
+  orig: 57, 49
+  offset: 0, 0
+  index: -1
+B_R_Forearm_a
+  rotate: true
+  xy: 949, 2
+  size: 32, 22
+  orig: 32, 22
+  offset: 0, 0
+  index: -1
+B_R_Hand_a
+  rotate: false
+  xy: 829, 2
+  size: 41, 30
+  orig: 41, 30
+  offset: 0, 0
+  index: -1
+B_R_Helmet
+  rotate: false
+  xy: 1384, 2
+  size: 22, 40
+  orig: 22, 40
+  offset: 0, 0
+  index: -1
+B_R_Leg
+  rotate: false
+  xy: 960, 38
+  size: 50, 70
+  orig: 50, 70
+  offset: 0, 0
+  index: -1
+B_R_Leg_Jar
+  rotate: false
+  xy: 1691, 4
+  size: 26, 50
+  orig: 26, 51
+  offset: 0, 0
+  index: -1
+B_R_Shoudler
+  rotate: true
+  xy: 1899, 3
+  size: 31, 22
+  orig: 31, 22
+  offset: 0, 0
+  index: -1
+B_Tube_Calf
+  rotate: true
+  xy: 283, 2
+  size: 19, 48
+  orig: 19, 48
+  offset: 0, 0
+  index: -1
+B_Tube_Leg
+  rotate: false
+  xy: 1833, 67
+  size: 24, 41
+  orig: 24, 41
+  offset: 0, 0
+  index: -1
+B_Tube_R_Arm
+  rotate: true
+  xy: 1041, 2
+  size: 34, 62
+  orig: 34, 62
+  offset: 0, 0
+  index: -1
+B_Wire_A
+  rotate: false
+  xy: 1358, 44
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+B_Wire_Back
+  rotate: false
+  xy: 1154, 3
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+B_bag_Ring
+  rotate: false
+  xy: 1951, 52
+  size: 15, 29
+  orig: 15, 29
+  offset: 0, 0
+  index: -1
+Bag_Leg
+  rotate: false
+  xy: 1408, 4
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+Chest
+  rotate: true
+  xy: 2, 2
+  size: 106, 71
+  orig: 106, 71
+  offset: 0, 0
+  index: -1
+Grenade
+  rotate: true
+  xy: 1769, 14
+  size: 44, 24
+  orig: 44, 24
+  offset: 0, 0
+  index: -1
+Grenade_Ring
+  rotate: false
+  xy: 1769, 2
+  size: 10, 10
+  orig: 10, 11
+  offset: 0, 1
+  index: -1
+Hammer
+  rotate: true
+  xy: 1172, 44
+  size: 64, 184
+  orig: 64, 184
+  offset: 0, 0
+  index: -1
+Hammer_S
+  rotate: false
+  xy: 1833, 28
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+Hammer_Tape_Skill_a
+  rotate: true
+  xy: 480, 2
+  size: 26, 110
+  orig: 26, 110
+  offset: 0, 0
+  index: -1
+Hammer_Tape_Skill_b
+  rotate: true
+  xy: 1795, 2
+  size: 15, 37
+  orig: 16, 38
+  offset: 0, 1
+  index: -1
+Hammer_Tape_Skill_c
+  rotate: false
+  xy: 1657, 55
+  size: 29, 53
+  orig: 29, 53
+  offset: 0, 0
+  index: -1
+Hammer_Tape_Skill_d
+  rotate: true
+  xy: 1951, 83
+  size: 25, 16
+  orig: 26, 16
+  offset: 1, 0
+  index: -1
+Hammer_Tape_a
+  rotate: true
+  xy: 131, 2
+  size: 13, 150
+  orig: 13, 150
+  offset: 0, 0
+  index: -1
+Hammer_Tape_b
+  rotate: false
+  xy: 1436, 2
+  size: 46, 41
+  orig: 46, 41
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 1416, 45
+  size: 63, 55
+  orig: 63, 55
+  offset: 0, 0
+  index: -1
+Head_Helmet
+  rotate: true
+  xy: 623, 32
+  size: 76, 58
+  orig: 76, 60
+  offset: 0, 0
+  index: -1
+Head_Helmet_back
+  rotate: true
+  xy: 1923, 13
+  size: 13, 25
+  orig: 21, 25
+  offset: 7, 0
+  index: -1
+Head_Helmet_front
+  rotate: false
+  xy: 1859, 72
+  size: 24, 36
+  orig: 24, 38
+  offset: 0, 1
+  index: -1
+L_Arm
+  rotate: false
+  xy: 1055, 41
+  size: 53, 67
+  orig: 53, 73
+  offset: 0, 0
+  index: -1
+L_Calf
+  rotate: false
+  xy: 1484, 2
+  size: 53, 44
+  orig: 53, 44
+  offset: 0, 0
+  index: -1
+L_Calf_Jar
+  rotate: false
+  xy: 733, 32
+  size: 43, 76
+  orig: 43, 76
+  offset: 0, 0
+  index: -1
+L_Foot
+  rotate: true
+  xy: 1741, 10
+  size: 48, 26
+  orig: 48, 26
+  offset: 0, 0
+  index: -1
+L_Foot_back
+  rotate: false
+  xy: 744, 3
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+L_Forearm
+  rotate: true
+  xy: 1539, 2
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+L_Hand
+  rotate: true
+  xy: 1897, 36
+  size: 35, 29
+  orig: 36, 29
+  offset: 1, 0
+  index: -1
+L_Hand_Up
+  rotate: false
+  xy: 633, 2
+  size: 34, 28
+  orig: 35, 28
+  offset: 1, 0
+  index: -1
+L_Hand_Up_back
+  rotate: false
+  xy: 1928, 28
+  size: 34, 22
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 905, 36
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+L_Leg_Jar
+  rotate: false
+  xy: 1920, 74
+  size: 29, 34
+  orig: 29, 34
+  offset: 0, 0
+  index: -1
+Mask_a
+  rotate: true
+  xy: 1885, 73
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+Mask_b
+  rotate: false
+  xy: 465, 30
+  size: 41, 78
+  orig: 41, 78
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 378, 27
+  size: 81, 24
+  orig: 81, 24
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: true
+  xy: 1532, 51
+  size: 57, 55
+  orig: 57, 55
+  offset: 0, 0
+  index: -1
+R_Calf
+  rotate: true
+  xy: 1795, 19
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+R_Foot
+  rotate: true
+  xy: 1611, 3
+  size: 46, 26
+  orig: 49, 28
+  offset: 3, 2
+  index: -1
+R_Foot_back
+  rotate: true
+  xy: 1871, 34
+  size: 36, 24
+  orig: 36, 24
+  offset: 0, 0
+  index: -1
+R_Forearm
+  rotate: true
+  xy: 1740, 60
+  size: 48, 42
+  orig: 48, 42
+  offset: 0, 0
+  index: -1
+R_Hand
+  rotate: false
+  xy: 872, 2
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+R_Hand_Cliose_Finger
+  rotate: true
+  xy: 669, 2
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+R_Hand_Close
+  rotate: false
+  xy: 912, 2
+  size: 35, 32
+  orig: 35, 32
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: false
+  xy: 1012, 38
+  size: 41, 70
+  orig: 41, 70
+  offset: 0, 0
+  index: -1
+R_Tube_Leg
+  rotate: true
+  xy: 428, 2
+  size: 24, 50
+  orig: 24, 50
+  offset: 0, 0
+  index: -1
+Shoudler
+  rotate: false
+  xy: 1198, 2
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+Shouldler_strap
+  rotate: false
+  xy: 683, 32
+  size: 48, 76
+  orig: 48, 76
+  offset: 0, 0
+  index: -1
+Tube_Arm
+  rotate: false
+  xy: 333, 3
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+Tube_Leg
+  rotate: true
+  xy: 973, 2
+  size: 34, 66
+  orig: 34, 66
+  offset: 0, 0
+  index: -1
+Tube_Leg_down
+  rotate: false
+  xy: 1719, 5
+  size: 20, 49
+  orig: 20, 49
+  offset: 0, 0
+  index: -1
+Waist
+  rotate: true
+  xy: 175, 17
+  size: 91, 42
+  orig: 91, 42
+  offset: 0, 0
+  index: -1
+Wire_Back
+  rotate: false
+  xy: 1260, 2
+  size: 44, 40
+  orig: 44, 40
+  offset: 0, 0
+  index: -1
